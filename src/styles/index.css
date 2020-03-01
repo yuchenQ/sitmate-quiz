@@ -1,0 +1,47 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.main-layout {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #eee;
+  padding: 32px;
+}
+
+.dialog {
+  border: 1px solid #888;
+}
+
+.dialog-form {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  grid-row-gap: 24px;
+  padding: 50px 50px;
+}
+
+.dialog-form-menu {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 24px;
+}
+
+button {
+  min-width: 100px;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dialog-button:hover {
+  background: #888;
+}
+
+.main-section {
+  display: grid;
+  grid-row-gap: 40px;
+}
